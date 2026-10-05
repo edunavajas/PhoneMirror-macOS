@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>PhoneMirror</string>
+	<key>CFBundleDisplayName</key>
+	<string>PhoneMirror</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.edunavajas.phonemirror.view</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>PhoneMirror recibe la pantalla del iPhone por la red Wi‑Fi local.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_phonemirror._tcp</string>
+	</array>
+</dict>
+</plist>
